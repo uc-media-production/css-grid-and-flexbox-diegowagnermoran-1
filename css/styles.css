@@ -1,0 +1,118 @@
+/*overall*/
+
+
+
+body{
+    background-color: #FFECEC
+;
+}
+
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+header {
+    display: flex;
+    padding: .5rem 15rem;
+    background-color: #FFF9F9;
+    position: sticky;
+    justify-content: flex-start;
+    border-bottom: solid 2px lightslategray;
+    margin-bottom: 2rem;
+}
+
+
+/* Index Main */
+
+.container .hero{
+    margin: 1.25rem;
+
+}
+
+.gridrow {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFF9F9;
+}
+
+.gridcontents {
+    border: orange solid 4px;
+    width: 15rem;
+    padding: 1rem;
+}
+
+h1 {
+    color: #445A3F;
+    padding: 2rem;
+;
+}
+
+footer {
+    padding: .5rem;
+    background-color: #FFF9F9;
+    margin-top: 5rem;
+    display: flex;
+    justify-content: flex-end;
+    border: solid 2px lightslategray;
+    position: sticky;
+}
+
+.hero {
+    background-color: #FFF9F9;
+    border-top: black 2px solid;
+    border-bottom: black 2px solid;
+    padding: 1rem;
+    color: black;
+    /*
+    align-content: center;
+    align-self: center;
+    align-items: center;
+    text-align: center; */
+}
+
+.gridphoto {
+    width: 15rem;
+    height: auto;
+}
+
+
+/* Ids */
+
+#crest {
+    width: 5rem;
+}
+
+#botwtotk {
+    width: 5rem;
+}
+
+
+#internalhtmlfullcontainer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#internalasideflex {
+    background-color: #FFF9F9;
+    border: black solid 2px;
+    width: 20%;
+    margin-right: 2rem;
+}
+
+
+/* Internal page */
+
+.mainsectioninternalhtml {
+    background-color: #FFF9F9;
+    border: black solid 2px;
+    width: 75%;
+    min-height: 75%;
+}
+
+.mainsectioninternalhtml p {
+    margin-left: 2rem;
+}
